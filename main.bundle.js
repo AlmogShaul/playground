@@ -70,7 +70,7 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet></router-outlet>\n"
+module.exports = "<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
@@ -157,7 +157,7 @@ var AppModule = /** @class */ (function () {
 /***/ "./src/app/pages/page1/page1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main\">\n  page1 works!\n\n  <button (click)=\"next()\">NEXT</button>\n  <div class=\"spinner\">\n    <div class=\"lds-circle\"></div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main\">\r\n  page1 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n  <div class=\"spinner\">\r\n    <div class=\"lds-circle\"></div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -213,7 +213,7 @@ var Page1Component = /** @class */ (function () {
 /***/ "./src/app/pages/page2/page2.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main\">\npage2 works!\n\n  <button (click)=\"next()\">NEXT</button>\n  <button (click)=\"prev()\">PREV</button>\n  <div class=\"spinner\">\n    <div class=\"lds-hourglass\"></div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main\">\r\npage2 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n  <button (click)=\"prev()\">PREV</button>\r\n  <div class=\"spinner\">\r\n    <div class=\"lds-hourglass\"></div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -272,7 +272,7 @@ var Page2Component = /** @class */ (function () {
 /***/ "./src/app/pages/page3/page3.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main\">\npage3 works!\n\n  <button (click)=\"next()\">NEXT</button>\n  <button (click)=\"prev()\">PREV</button>\n  <div class=\"spinner\">\n    <div class=\"lds-circle\"></div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main\">\r\npage3 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n  <button (click)=\"prev()\">PREV</button>\r\n  <div class=\"spinner\">\r\n    <div class=\"lds-circle\"></div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -331,7 +331,7 @@ var Page3Component = /** @class */ (function () {
 /***/ "./src/app/pages/page4/page4.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main\">\npage4 works!\n\n  <button (click)=\"next()\">NEXT</button>\n  <button (click)=\"prev()\">PREV</button>\n  <div class=\"spinner\">\n    <div class=\"lds-hourglass\"></div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main\">\r\npage4 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n  <button (click)=\"prev()\">PREV</button>\r\n  <div class=\"spinner\">\r\n    <div class=\"lds-hourglass\"></div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
