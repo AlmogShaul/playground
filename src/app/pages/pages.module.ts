@@ -5,11 +5,13 @@ import {Page2Component} from './page2/page2.component';
 import {Page3Component} from './page3/page3.component';
 import {Page4Component} from './page4/page4.component';
 import { RouterModule} from '@angular/router';
+import {NgxCarouselModule} from 'ngx-carousel';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgxCarouselModule
   ],
   declarations: [
     Page1Component,

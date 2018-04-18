@@ -2,7 +2,27 @@
   page1 works!
 
   <button (click)="next()">NEXT</button>
-  <div class="spinner">
-    <div class="lds-circle"></div>
-  </div>
+
+  <ngx-carousel [inputs]="carouselOne">
+    <ngx-item NgxCarouselItem>
+      <div class="section">
+        <div></div>
+        <img  src="https://images.pexels.com/photos/39517/rose-flower-blossom-bloom-39517.jpeg?auto=compress&cs=tinysrgb&h=350">
+      </div>
+    </ngx-item>
+    <ngx-item NgxCarouselItem>
+      <div class="section">
+        <div></div>
+        <img src="https://images.pexels.com/photos/87840/daisy-pollen-flower-nature-87840.jpeg?auto=compress&cs=tinysrgb&h=350">
+      </div>
+    </ngx-item>
+    <ngx-item NgxCarouselItem>
+      <div class="section">
+        <div></div>
+          <img src="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&h=350">
+      </div>
+    </ngx-item>
+    <button NgxCarouselPrev class='leftRs'>&lt;</button>
+    <button NgxCarouselNext class='rightRs'>&gt;</button>
+  </ngx-carousel>
 </div>
