@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/repo
+    working_directory: ~/dist
 
     steps:
       - checkout
@@ -40,4 +40,5 @@ deployment:
   production:
     branch: master
     commands:
-      - surge --project ./src --domain playground.surge.sh
+      - surge --project ./src --domain damp-bait.surge.sh
+
