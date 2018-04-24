@@ -30,9 +30,3 @@ jobs:
       - run: yarn test
 
 
-
-     deploy:
-       production:
-         branch: master
-             commands:
-                 - surge --project ./dist --domain noisy-attempt.surge.sh
