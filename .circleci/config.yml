@@ -19,7 +19,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: npm install
+      - run: yarn install
 
       - save_cache:
           paths:
@@ -27,12 +27,12 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm test
+      - run: yarn test
 
 
 
-     -deploy:
-            production:
-             branch: master
+     deploy:
+       production:
+         branch: master
              commands:
-                 - surge --project ./src --domain noisy-attempt.surge.sh
+                 - surge --project ./dist --domain noisy-attempt.surge.sh
