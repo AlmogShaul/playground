@@ -9,12 +9,28 @@
 
 
 .section {
-  height: 700px;
-  background-color: #0061e6;
+  height: 1000px;
+  background-color: rgb(189, 189, 189);
   font-size: 36px;
 }
 
 
 h1{
   margin:0px;
+}
+
+.section {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  >div{
+    flex-grow: 1;
+    background: lightslategray;
+  }
+  img {
+    height: 100%;
+    width: 150px;
+    object-fit: cover;
+  }
+
 }

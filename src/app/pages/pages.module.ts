@@ -7,6 +7,7 @@ import {Page4Component} from './page4/page4.component';
 import { RouterModule} from '@angular/router';
 import {NgxCarouselModule} from 'ngx-carousel';
 
+
 @NgModule({
   imports: [
     CommonModule,
