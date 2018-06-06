@@ -157,7 +157,7 @@ var AppModule = /** @class */ (function () {
 /***/ "./src/app/pages/page1/page1.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main\">\r\n  page1 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n\r\n  <div>\r\n    <img src=\"../../../playground/images/homer.gif\">\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"main\">\r\n  page1 works!\r\n\r\n  <button (click)=\"next()\">NEXT</button>\r\n\r\n  <div>\r\n    <img src=\"/images/homer.gif\">\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
