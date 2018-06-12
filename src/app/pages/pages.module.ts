@@ -9,6 +9,7 @@ import {NgxCarouselModule} from 'ngx-carousel';
 import { DemoScrollDirective } from './page2/demo-scroll.directive';
 
 
+
 @NgModule({
   imports: [
     CommonModule,
