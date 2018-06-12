@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 
 @Component({
@@ -8,10 +8,13 @@ import {Router} from '@angular/router';
 })
 export class Page2Component implements OnInit {
 
+  activate = true;
+
   constructor(private router: Router) {
   }
 
   ngOnInit() {
+
   }
 
   next() {
